@@ -331,6 +331,7 @@ public class Blocks{
         hotrock = new Floor("hotrock"){{
             attributes.set(Attribute.heat, 0.5f);
             attributes.set(Attribute.water, -0.5f);
+            attributes.set(Attribute.slag, 0.5f);
             blendGroup = basalt;
 
             emitLight = true;
@@ -341,6 +342,7 @@ public class Blocks{
         magmarock = new Floor("magmarock"){{
             attributes.set(Attribute.heat, 0.75f);
             attributes.set(Attribute.water, -0.75f);
+            attributes.set(Attribute.slag, 0.75f);
             blendGroup = basalt;
 
             emitLight = true;
