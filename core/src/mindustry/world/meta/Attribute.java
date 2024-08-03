@@ -10,6 +10,8 @@ public class Attribute{
     /** Heat content. Used for thermal generator yield. */
     public static final Attribute
     heat = add("heat"),
+    /** slag content. used for slag pump
+    slag = add("slag"),
     /** Spore content. Used for cultivator yield. */
     spores = add("spores"),
     /** Water content. Used for water extractor yield. */
